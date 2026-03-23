@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — ACSIP</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/jpeg" href="images/ACSIP LOGO.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- TICKER -->
+  <div class="ticker-wrap">
+    <div class="ticker-track">
+      <span>Welcome to the ACSIP Website 2025–2026</span>
+      <span>🇹🇩 Unity · Culture · Excellence</span>
+      <span>Welcome to the ACSIP Website 2025–2026</span>
+      <span>🇹🇩 Unity · Culture · Excellence</span>
+      <span>Welcome to the ACSIP Website 2025–2026</span>
+      <span>🇹🇩 Unity · Culture · Excellence</span>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="images/logo.jpg" alt="ACSIP Logo">
+        <span class="nav-brand">ACSIP</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero gallery-page-hero">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <p class="section-label light">Memories</p>
+      <h1>Our <em>Gallery</em></h1>
+      <p>A glimpse into the life, culture, and community of ACSIP.</p>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery-full">
+    <div class="section-container">
+      <div class="gallery-masonry">
+        <div class="gm-item" data-title="Independence Day Celebrations" data-src="images/independance.jpg">
+          <img src="images/independance.jpg" alt="Independence Day">
+          <div class="gm-overlay">
+            <span><i class="fas fa-expand-alt"></i></span>
+            <p>Independence Day</p>
+          </div>
+        </div>
+        <div class="gm-item" data-title="Football Tournament" data-src="images/football_won.jpg">
+          <img src="images/football_won.jpg" alt="Football Tournament">
+          <div class="gm-overlay">
+            <span><i class="fas fa-expand-alt"></i></span>
+            <p>Football Tournament</p>
+          </div>
+        </div>
+        <div class="gm-item" data-title="Food Festival" data-src="images/food_festival.jpg">
+          <img src="images/food_festival.jpg" alt="Food Festival">
+          <div class="gm-overlay">
+            <span><i class="fas fa-expand-alt"></i></span>
+            <p>Food Festival</p>
+          </div>
+        </div>
+        <div class="gm-item" data-title="Group Trip" data-src="images/trips.jpg">
+          <img src="images/trips.jpg" alt="Group Trip">
+          <div class="gm-overlay">
+            <span><i class="fas fa-expand-alt"></i></span>
+            <p>Group Trip</p>
+          </div>
+        </div>
+        <div class="gm-item" data-title="Football Team" data-src="images/football_team.jpg">
+          <img src="images/football.team.jpeg" alt="Football Team">
+          <div class="gm-overlay">
+            <span><i class="fas fa-expand-alt"></i></span>
+            <p>Football Team</p>
+          </div>
+        </div>
+        <div class="gm-item" data-title="Flag Presentation" data-src="images/flag_presentation.jpg">
+          <img src="images/flag_presentation.jpg" alt="Flag Presentation">
+          <div class="gm-overlay">
+            <span><i class="fas fa-expand-alt"></i></span>
+            <p>Flag Presentation</p>
+          </div>
+        </div>
+        <div class="gm-item" data-title="Fashion Show" data-src="images/dance.jpg">
+          <img src="images/dance.jpg" alt="Fashion Show">
+          <div class="gm-overlay">
+            <span><i class="fas fa-expand-alt"></i></span>
+            <p>Fashion Show</p>
+          </div>
+        </div>
+        <div class="gm-item" data-title="ACSIP Members" data-src="images/about1.jpg">
+          <img src="images/about1.jpg" alt="ACSIP Members">
+          <div class="gm-overlay">
+            <span><i class="fas fa-expand-alt"></i></span>
+            <p>ACSIP Members</p>
+          </div>
+        </div>
+        <div class="gm-item" data-title="Collaboration Event" data-src="images/football_team1.jpg">
+          <img src="images/about6.jpeg" alt="dance">
+          <div class="gm-overlay">
+            <span><i class="fas fa-expand-alt"></i></span>
+            <p>cultural dance</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox">
+    <button class="lightbox-close" id="lightboxClose"><i class="fas fa-times"></i></button>
+    <button class="lightbox-prev" id="lightboxPrev"><i class="fas fa-chevron-left"></i></button>
+    <button class="lightbox-next" id="lightboxNext"><i class="fas fa-chevron-right"></i></button>
+    <div class="lightbox-content">
+      <img id="lightboxImg" src="" alt="">
+      <p id="lightboxCaption"></p>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="images/logo.jpg" alt="ACSIP">
+        <h3>ACSIP</h3>
+        <p>Association of Chadian<br>Students in Pune</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/share/1BF27DDrnx/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/acsip_officiel" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Activities</h4>
+        <ul>
+          <li><a href="events.html">Group Trips</a></li>
+          <li><a href="events.html">Independence Day</a></li>
+          <li><a href="events.html">Football Tournaments</a></li>
+          <li><a href="events.html">Food Festivals</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:acsip.officielle@gmail.com">acsip.officielle@gmail.com</a></li>
+          <li><a href="index.html#contact">Send a Message</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Association of Chadian Students in Pune. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

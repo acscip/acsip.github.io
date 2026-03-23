@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events — ACSIP</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/jpeg" href="images/ACSIP LOGO.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- TICKER -->
+  <div class="ticker-wrap">
+    <div class="ticker-track">
+      <span>Welcome to the ACSIP Website 2025–2026</span>
+      <span>🇹🇩 Unity · Culture · Excellence</span>
+      <span>Welcome to the ACSIP Website 2025–2026</span>
+      <span>🇹🇩 Unity · Culture · Excellence</span>
+      <span>Welcome to the ACSIP Website 2025–2026</span>
+      <span>🇹🇩 Unity · Culture · Excellence</span>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <img src="images/logo.jpg" alt="ACSIP Logo">
+        <span class="nav-brand">ACSIP</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="events.html" class="active">Events</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero events-page-hero">
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <p class="section-label light">All Events</p>
+      <h1>Our <em>Activities</em></h1>
+      <p>Celebrating culture, sport, and community — all year long.</p>
+    </div>
+  </section>
+
+  <!-- FILTER TABS -->
+  <div class="events-filter">
+    <div class="section-container">
+      <div class="filter-tabs">
+        <button class="filter-tab active" data-filter="all">All</button>
+        <button class="filter-tab" data-filter="activities">ACSIP Activities</button>
+        <button class="filter-tab" data-filter="university">University Events</button>
+        <button class="filter-tab" data-filter="collaboration">Collaborations</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ACSIP ACTIVITIES -->
+  <section class="events-section" id="activities-section">
+    <div class="section-container">
+      <div class="events-section-header">
+        <div class="events-section-tag activities">ACSIP Activities</div>
+      </div>
+      <div class="event-container" data-category="activities">
+
+        <div class="event-card" data-category="activities">
+          <div class="event-img-wrap">
+            <img src="images/independance.jpg" alt="Independence Day">
+            <div class="event-badge">Annual</div>
+          </div>
+          <div class="event-info">
+            <h3>Independence Day</h3>
+            <p>We celebrate Chad's Independence Day every year in Delhi, with ambassadors in attendance.
+              <span class="more-text"> The presidents and vice presidents of each Chadian association across India fly to Delhi to oversee the event. The purpose is to discuss the issues facing Chadian students in India, and the embassy looks for collective solutions.</span>
+            </p>
+            <button class="read-more-btn">Read more <i class="fas fa-chevron-down"></i></button>
+          </div>
+        </div>
+
+        <div class="event-card" data-category="activities">
+          <div class="event-img-wrap">
+            <img src="images/trips.jpg" alt="Group Trips">
+            <div class="event-badge">Regular</div>
+          </div>
+          <div class="event-info">
+            <h3>Group Trips</h3>
+            <p>We organise fun trips around Pune and India. It's the perfect way to take a break, get to know each other,
+              <span class="more-text"> and create unforgettable memories. To make this possible, we all contribute a small amount to cover the cost of the trip — making it accessible and fun for everyone.</span>
+            </p>
+            <button class="read-more-btn">Read more <i class="fas fa-chevron-down"></i></button>
+          </div>
+        </div>
+
+        <div class="event-card" data-category="activities">
+          <div class="event-img-wrap">
+            <img src="images/football_team.jpg" alt="Friendly Matches">
+          </div>
+          <div class="event-info">
+            <h3>Friendly Matches</h3>
+            <p>Internal friendly football matches organised for members to stay active, have fun, and strengthen team spirit within the association.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- UNIVERSITY EVENTS -->
+  <section class="events-section alt-bg" id="university-section">
+    <div class="section-container">
+      <div class="events-section-header">
+        <div class="events-section-tag university">University Events</div>
+      </div>
+      <div class="event-container" data-category="university">
+
+        <div class="event-card" data-category="university">
+          <div class="event-img-wrap">
+            <img src="images/football_won.jpg" alt="Football Tournament">
+            <div class="event-badge won">🏆 Won</div>
+          </div>
+          <div class="event-info">
+            <h3>Football Tournament</h3>
+            <p>Some universities organise football competitions every year — country competitions where every nation with students in Pune participates.
+              <span class="more-text"> We represented Chad in Pune University and Symbiosis University competitions. Our team is led by the sports coordinator and the captain, who selects the players. We played with pride and had a great time.</span>
+            </p>
+            <button class="read-more-btn">Read more <i class="fas fa-chevron-down"></i></button>
+          </div>
+        </div>
+
+        <div class="event-card" data-category="university">
+          <div class="event-img-wrap">
+            <img src="images/food_festival.jpg" alt="Food Festival">
+          </div>
+          <div class="event-info">
+            <h3>Food Festival</h3>
+            <p>Universities organise food festivals where every country presents its cuisine. International students come to taste diverse foods,
+              <span class="more-text"> and chefs judge and award the best food and decorations. We participated at Pune University, Symbiosis University and MIT University — a great opportunity to showcase Chad's rich gastronomy.</span>
+            </p>
+            <button class="read-more-btn">Read more <i class="fas fa-chevron-down"></i></button>
+          </div>
+        </div>
+
+        <div class="event-card" data-category="university">
+          <div class="event-img-wrap">
+            <img src="images/flag_presentation.jpg" alt="Flag Presentation">
+          </div>
+          <div class="event-info">
+            <h3>Flag Presentation</h3>
+            <p>We proudly display the Chadian flag at every event organised by universities — representing our nation with dignity and pride.</p>
+          </div>
+        </div>
+
+        <div class="event-card" data-category="university">
+          <div class="event-img-wrap">
+            <img src="images/dance.jpg" alt="Fashion Show">
+          </div>
+          <div class="event-info">
+            <h3>Fashion Show</h3>
+            <p>We showcase our traditions and traditional attire in university fashion shows, bringing the beauty of Chadian culture to the stage.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- COLLABORATIONS -->
+  <section class="events-section" id="collab-section">
+    <div class="section-container">
+      <div class="events-section-header">
+        <div class="events-section-tag collab">Collaborations</div>
+      </div>
+      <div class="event-container" data-category="collaboration">
+
+        <div class="event-card" data-category="collaboration">
+          <div class="event-img-wrap">
+            <img src="images/football_team1.jpg" alt="Football Collaboration">
+          </div>
+          <div class="event-info">
+            <h3>Collaborative Football</h3>
+            <p>We actively participate in every football event organised by other international student associations in Pune — building friendships beyond borders.</p>
+          </div>
+        </div>
+
+        <div class="event-card" data-category="collaboration">
+          <div class="event-img-wrap">
+            <img src="images/dance.jpg" alt="Cultural Events">
+          </div>
+          <div class="event-info">
+            <h3>Cultural Events</h3>
+            <p>We join cultural events hosted by other associations in Pune — sharing our heritage and learning about other cultures in a spirit of unity and respect.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="images/logo.jpg" alt="ACSIP">
+        <h3>ACSIP</h3>
+        <p>Association of Chadian<br>Students in Pune</p>
+        <div class="social-links">
+          <a href="https://www.facebook.com/share/1BF27DDrnx/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/acsip_officiel" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Activities</h4>
+        <ul>
+          <li><a href="#activities-section">Group Trips</a></li>
+          <li><a href="#activities-section">Independence Day</a></li>
+          <li><a href="#university-section">Football Tournaments</a></li>
+          <li><a href="#university-section">Food Festivals</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:acsip.officielle@gmail.com">acsip.officielle@gmail.com</a></li>
+          <li><a href="index.html#contact">Send a Message</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Association of Chadian Students in Pune. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
